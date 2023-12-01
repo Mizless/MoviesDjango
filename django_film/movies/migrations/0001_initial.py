@@ -20,7 +20,7 @@ class Migration(migrations.Migration):
                 ('name', models.CharField(max_length=100, verbose_name='Имя')),
                 ('age', models.PositiveSmallIntegerField(default=0, verbose_name='Возраст')),
                 ('description', models.TextField(verbose_name='Описание')),
-                ('image', models.ImageField(upload_to='actrors/', verbose_name='Изображение')),
+                ('image', models.ImageField(upload_to='actors/', verbose_name='Изображение')),
             ],
             options={
                 'verbose_name': 'Актеры и режиссеры',
